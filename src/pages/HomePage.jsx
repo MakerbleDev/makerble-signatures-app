@@ -54,7 +54,7 @@ export default function HomePage() {
           {[
             { icon: '🎨', title: 'Your branding', desc: 'Upload your logo, set your colours and default text once.' },
             { icon: '🔗', title: 'One shareable link', desc: 'Send your team a single URL — nothing to install or download.' },
-            { icon: '✉️', title: 'Gmail ready', desc: 'Works in seconds with Gmail's signature paste method.' },
+            { icon: '✉️', title: 'Gmail ready', desc: "Works in seconds with Gmail's signature paste method." },
           ].map(f => (
             <div key={f.title} className="card" style={{ width: 220, textAlign: 'left', flexShrink: 0 }}>
               <div style={{ fontSize: 24, marginBottom: 10 }}>{f.icon}</div>
